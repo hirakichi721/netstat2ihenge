@@ -1,11 +1,13 @@
-# netstat2henge.py
+# netstat2ihenge.py
   Convert from netstat edited data to inet-henge formated data.
 
 # Basic Information
 ## input
- [netstat edited data](input)
+ netstat edited data
+  ```
    protocol,sourceip:sourceport,destip:destport
- 
+  ``` 
+
  InputSample
   ```
   tcp,10.0.0.1:514,10.0.0.2:10023
@@ -14,7 +16,8 @@
   ```
 
 ## output
- [inet-henge formated json data](output)
+ inet-henge formated json data
+
  OutputSample
  ```
  {
@@ -54,5 +57,5 @@
  5. Browse http://localhost:8000/example/index.html, then you can see a network graph.
 
 # Warning
- IP of * or 0.0.0.0(listed in exclideips)are ignored.
+ IP of * or 0.0.0.0(listed in excludeips)are ignored.
 
