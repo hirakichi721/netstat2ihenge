@@ -1,0 +1,26 @@
+{
+    "nodes": [
+        {
+            "name": "10.0.0.1", 
+            "icon": "./images/router.png"
+        }, 
+        {
+            "name": "10.0.0.2", 
+            "icon": "./images/router.png"
+        }, 
+        {
+            "name": "10.0.0.3", 
+            "icon": "./images/router.png"
+        }
+    ], 
+    "links": [
+        {
+            "source": "10.0.0.1", 
+            "target": "10.0.0.2"
+        }, 
+        {
+            "source": "10.0.0.1", 
+            "target": "10.0.0.3"
+        }
+    ]
+}
